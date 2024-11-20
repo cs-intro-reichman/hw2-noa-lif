@@ -12,7 +12,7 @@ public class Collatz {
         for (int i = 1; i <= number; i++) {
             int collatz = i;
             if (verbose) {
-                System.out.print("\n"+collatz + " ");
+                System.out.print(collatz + " ");
             }
             int counter = 1;
             while (collatz != 1 || counter == 1) {
